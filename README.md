@@ -22,8 +22,6 @@ This dataset, which details the American movies and TV episodes that are current
 ### $\textcolor{red}{Potential\ Questions\ that\ are\ answered\ by\ analysis\ and\ visualization}$
 ![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/5961171e-f30d-4ea3-9b67-458f55991adb)
 
-### $\textcolor{red}{Data\ Types\ and\ Interaction\ with\ Report}$
-
 ### $\textcolor{red}{Pre\ processing\ on\ the\ dataset}$
 * The title.csv contains 10k records with 15 columns and credits.csv contains 140k records with 5 columns.
 * Therefore, before creating the visualization, pre-processing should be done on such big datasets.
