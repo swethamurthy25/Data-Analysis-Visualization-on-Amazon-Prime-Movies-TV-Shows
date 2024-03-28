@@ -28,11 +28,11 @@ This dataset, which details the American movies and TV episodes that are current
 * The title.csv contains 10k records with 15 columns and credits.csv contains 140k records with 5 columns.
 * Therefore, before creating the visualization, pre-processing should be done on such big datasets.
 * Libraries used for preprocessing the data:
-  	ast - The Python library ast provides a way to parse and manipulate the source code of a Python program.
-  	MultiLabelBinarizer - The class is imported from sklearn.preprocessing module and is used to convert a list of labels 
-    into a binary matrix representation, and is often used in multi-label classification tasks.
-  	pandas - The Python library pandas are used for reading, manipulating, and analyzing data.
-  	NumPy - NumPy is used while working with arrays and matrices of numerical data.
+  -- ast - The Python library ast provides a way to parse and manipulate the source code of a Python program.
+  -- MultiLabelBinarizer - The class is imported from sklearn.preprocessing module and is used to convert a list of labels 
+     into a binary matrix representation, and is often used in multi-label classification tasks.
+  -- pandas - The Python library pandas are used for reading, manipulating, and analyzing data.
+  -- NumPy - NumPy is used while working with arrays and matrices of numerical data.
 
 ![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/51753135-dbbe-4e98-9781-f6297cb6e763)
 
@@ -42,4 +42,13 @@ This dataset, which details the American movies and TV episodes that are current
 ![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/b1743736-0a73-4e0b-beb5-b6808e6aaa53)
 
 ![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/a90653d8-7db3-4c32-96c5-25bc3efb0b1a)
+
+### $\textcolor{red}{Dashboard\ Plots\ and\ respective\ Questions}$
+#### Question 1: What is the distribution of Content-Type Shows across genre and production countries?
+The below plot is used to depict the distribution of the content type (movies and TV Shows) across the different genre grouping, release years, and production countries using a pie chart. We have used the multi-value drop-down filter for release year, genre grouping, and production countries. The distribution of the pie chart (size) will change based on the genre grouping, release year, and the country we select in the filter. 
+* The pre-attentive attribute used is - color and size. 
+* Color: Blue color represents the percentage of movies and green color represents the percentage of tv shows.
+
+![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/79bcafc7-8bfe-492f-938d-582cb5b2cb42)
+
 
