@@ -44,11 +44,32 @@ This dataset, which details the American movies and TV episodes that are current
 ![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/a90653d8-7db3-4c32-96c5-25bc3efb0b1a)
 
 ### $\textcolor{red}{Dashboard\ Plots\ and\ respective\ Questions}$
-#### Question 1: What is the distribution of Content-Type Shows across genre and production countries?
+#### $\textcolor{red}{1:\ What\ is\ the\ distribution\ of\ Content-Type\ Shows\ across\ genre\ and\ production\ countries?}$
 The below plot is used to depict the distribution of the content type (movies and TV Shows) across the different genre grouping, release years, and production countries using a pie chart. We have used the multi-value drop-down filter for release year, genre grouping, and production countries. The distribution of the pie chart (size) will change based on the genre grouping, release year, and the country we select in the filter. 
 * The pre-attentive attribute used is - color and size. 
-* Color: Blue color represents the percentage of movies and green color represents the percentage of tv shows.
+* Color: Blue color represents the percentage of movies and green color represents the percentage of TV shows.
 
 ![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/79bcafc7-8bfe-492f-938d-582cb5b2cb42)
 
+#### $\textcolor{red}{2:\ What\ is\ the\ distribution\ of\ Titles\ by\ Type\ across\ genre,\ age\ certification,\ production\ countries,\ and\ release\ year?}$
+The below plot is used to depict the distribution of the title across different genre groups, age certifications, and production countries using a line chart. We have used the multi-value drop-down filter for age certification, genre grouping, and production countries. Using the filter, we can select one or more combinations of inputs to get the desired distribution of titles.
+* The pre-attentive attribute used is – position and color. 
+* Color: Blue color represents movies and green color represents TV shows
 
+![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/0e306438-300a-40ae-ac92-e210903e0899)
+
+#### $\textcolor{red}{3:\ What\ is\ the\ distribution\ of\ age\ certification\ across\ genre,\ priduction\ countries,\ and\ release\ year?}$
+The below plot is used to depict the distribution of the age certification across different genre groups, release years, and production countries using a bar chart. We have used the multi-value drop-down filter for release year, genre grouping, and production countries. Using the filter, we can select one or more combinations of inputs to get the desired bar chart depicting the distribution of age certifications.
+* The pre-attentive attribute used is – length and color. 
+* Color: Blue color represents movies and green color represents TV shows
+
+![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/6a560103-d143-40db-9061-d73cdbdfe918)
+
+#### $\textcolor{red}{4:\ What\ are\ the\ top\ N\ countries\ based\ on\ content\ production\ across\ age\ certification?}$
+The below plot is used to show the top N countries based on content production across the age certification using a stacked bar chart. We have used the multi-value drop-down filter for the age certification and production countries, the multi-value list filter to select one or more content types, and the top N filter to select the required top n values to be displayed on the chart. Using the filter, we can select one or more combinations of inputs to get the desired bar chart depicting the top N countries based on content production across age certification.
+* The pre-attentive attribute used is – length and color. 
+* Color: Blue color represents movies and green color represents tv shows
+
+![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/f5df63ee-a057-443e-a122-345b51353ed7)
+
+![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/6a560103-d143-40db-9061-d73cdbdfe918)
