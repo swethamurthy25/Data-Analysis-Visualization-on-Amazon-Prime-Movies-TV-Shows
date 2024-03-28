@@ -44,32 +44,55 @@ This dataset, which details the American movies and TV episodes that are current
 ![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/a90653d8-7db3-4c32-96c5-25bc3efb0b1a)
 
 ### $\textcolor{red}{Dashboard\ Plots\ and\ respective\ Questions}$
-#### $\textcolor{red}{1:\ What\ is\ the\ distribution\ of\ Content-Type\ Shows\ across\ genre\ and\ production\ countries?}$
+### $\textcolor{red}{1:\ What\ is\ the\ distribution\ of\ Content-Type\ Shows\ across\ genre\ and\ production\ countries?}$
 The below plot is used to depict the distribution of the content type (movies and TV Shows) across the different genre grouping, release years, and production countries using a pie chart. We have used the multi-value drop-down filter for release year, genre grouping, and production countries. The distribution of the pie chart (size) will change based on the genre grouping, release year, and the country we select in the filter. 
 * The pre-attentive attribute used is - color and size. 
 * Color: Blue color represents the percentage of movies and green color represents the percentage of TV shows.
 
 ![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/79bcafc7-8bfe-492f-938d-582cb5b2cb42)
 
-#### $\textcolor{red}{2:\ What\ is\ the\ distribution\ of\ Titles\ by\ Type\ across\ genre,\ age\ certification,\ production\ countries,\ and\ release\ year?}$
+### $\textcolor{red}{2:\ What\ is\ the\ distribution\ of\ Titles\ by\ Type\ across\ genre,\ age\ certification,\ production\ countries,\ and\ release\ year?}$
 The below plot is used to depict the distribution of the title across different genre groups, age certifications, and production countries using a line chart. We have used the multi-value drop-down filter for age certification, genre grouping, and production countries. Using the filter, we can select one or more combinations of inputs to get the desired distribution of titles.
 * The pre-attentive attribute used is – position and color. 
 * Color: Blue color represents movies and green color represents TV shows
 
 ![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/0e306438-300a-40ae-ac92-e210903e0899)
 
-#### $\textcolor{red}{3:\ What\ is\ the\ distribution\ of\ age\ certification\ across\ genre,\ priduction\ countries,\ and\ release\ year?}$
+### $\textcolor{red}{3:\ What\ is\ the\ distribution\ of\ age\ certification\ across\ genre,\ priduction\ countries,\ and\ release\ year?}$
 The below plot is used to depict the distribution of the age certification across different genre groups, release years, and production countries using a bar chart. We have used the multi-value drop-down filter for release year, genre grouping, and production countries. Using the filter, we can select one or more combinations of inputs to get the desired bar chart depicting the distribution of age certifications.
 * The pre-attentive attribute used is – length and color. 
 * Color: Blue color represents movies and green color represents TV shows
 
 ![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/6a560103-d143-40db-9061-d73cdbdfe918)
 
-#### $\textcolor{red}{4:\ What\ are\ the\ top\ N\ countries\ based\ on\ content\ production\ across\ age\ certification?}$
+### $\textcolor{red}{4:\ What\ are\ the\ top\ N\ countries\ based\ on\ content\ production\ across\ age\ certification?}$
 The below plot is used to show the top N countries based on content production across the age certification using a stacked bar chart. We have used the multi-value drop-down filter for the age certification and production countries, the multi-value list filter to select one or more content types, and the top N filter to select the required top n values to be displayed on the chart. Using the filter, we can select one or more combinations of inputs to get the desired bar chart depicting the top N countries based on content production across age certification.
 * The pre-attentive attribute used is – length and color. 
 * Color: Blue color represents movies and green color represents tv shows
 
 ![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/f5df63ee-a057-443e-a122-345b51353ed7)
 
+### $\textcolor{red}{other\ plots}$
 ![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/6a560103-d143-40db-9061-d73cdbdfe918)
+
+![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/40858c4f-dd08-4a59-8c9d-a36ca3b442be)
+
+![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/daab7273-053a-4afd-9a73-e0b3ca403cb7)
+
+![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/b0dc4acc-d2e5-491f-a8f7-5d29be31ed30)
+
+![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/7d583c01-2d1b-4c2c-8046-2c95e6e18f6f)
+
+
+### $\textcolor{red}{Final\ Dashboard}$
+![image](https://github.com/swethamurthy25/Data-Analysis-Visualization-on-Amazon-Prime-Movies-TV-Shows/assets/112581595/abf5ad58-6875-4828-8115-a7d819f10a17)
+
+With the advent of the internet and communication revolution, almost every human has a smartphone. This led to several businesses moving online. One such industry is the entertainment industry, which has adopted this mode of delivery extensively. It is evident from the sheer number of OTT (Over the top) platforms that are on the rise. Further, the e-commerce giant Amazon has not backed up from the competition by introducing their very own OTT platform Amazon Prime. 
+
+This dashboard is primarily designed to provide useful actionable insights for the end users to extract information regarding the myriad of content available on this platform. The dashboard can provide insights into the Amazon TV and Movie shows that were released from 1913 to 2023. The dashboard is aimed at answering various questions related to the distribution of content across different genres, age certifications, production countries, and release years. It also looks at the top N countries and actors based on various criteria such as content production and IMDB score. Additionally, it provides a comparison of TV shows' popularity with seasons across different factors.
+Overall, the dashboard is used for exploratory data analysis and to derive insights from the Amazon TV and Movies shows dataset. The insights generated from the dashboard can be used by content creators, producers, and other stakeholders to make informed decisions about content production, marketing, and distribution.
+
+KKSS. mural.co. (n.d.). Retrieved April 23, 2023, from https://app.mural.co/t/ift598dvprojectspring20235871/m/ift598dvprojectspring20235871/1680555750325/93c7e8dcb4cd3a044e6242d8b39d8dc7fad83654?sender=u32d73f61785512dd02250914
+
+
+
