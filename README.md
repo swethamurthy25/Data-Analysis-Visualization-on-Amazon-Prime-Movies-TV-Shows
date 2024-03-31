@@ -1,4 +1,4 @@
-# $\textcolor{red}{Data\ Visualization\ on\ Amazon\ Prime\ Movies\ &\ TV\ Shows}$
+# $\textcolor{red}{Data\ Viz\ on\ Amazon\ Prime\ Movies\ ana\ TV\ Shows}$
 
 ### $\textcolor{red}{Data\ Choosen}$ : Amazon Prime Movies and TV Shows
 The dataset is available on Kaggle.
